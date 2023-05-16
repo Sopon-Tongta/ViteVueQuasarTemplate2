@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/MaterialIcons/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
+}
+@font-face {
+  font-family: Prompt-Black;
+  src: url(./fonts/Prompt/Prompt-Black.ttf);
+}
+@font-face {
+  font-family: Prompt-BlackItalic;
+  src: url(./fonts/Prompt/Prompt-BlackItalic.ttf);
+}
+@font-face {
+  font-family: Prompt-Bold;
+  src: url(./fonts/Prompt/Prompt-Bold.ttf);
+}
+@font-face {
+  font-family: Prompt-BoldItalic;
+  src: url(./fonts/Prompt/Prompt-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Prompt-ExtraBold;
+  src: url(./fonts/Prompt/Prompt-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Prompt-ExtraBoldItalic;
+  src: url(./fonts/Prompt/Prompt-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: Prompt-ExtraLight;
+  src: url(./fonts/Prompt/Prompt-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Prompt-ExtraLightItalic;
+  src: url(./fonts/Prompt/Prompt-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: Prompt-Italic;
+  src: url(./fonts/Prompt/Prompt-Italic.ttf);
+}
+@font-face {
+  font-family: Prompt-Light;
+  src: url(./fonts/Prompt/Prompt-Light.ttf);
+}
+@font-face {
+  font-family: Prompt-LightItalic;
+  src: url(./fonts/Prompt/Prompt-LightItalic.ttf);
+}
+@font-face {
+  font-family: Prompt-Medium;
+  src: url(./fonts/Prompt/Prompt-Medium.ttf);
+}
+@font-face {
+  font-family: Prompt-MediumItalic;
+  src: url(./fonts/Prompt/Prompt-MediumItalic.ttf);
+}
+@font-face {
+  font-family: Prompt-Regular;
+  src: url(./fonts/Prompt/Prompt-Regular.ttf);
+}
+@font-face {
+  font-family: Prompt-SemiBold;
+  src: url(./fonts/Prompt/Prompt-SemiBold.ttf);
+}
+@font-face {
+  font-family: Prompt-SemiBoldItalic;
+  src: url(./fonts/Prompt/Prompt-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: Prompt-Thin;
+  src: url(./fonts/Prompt/Prompt-Thin.ttf);
+}
+@font-face {
+  font-family: Prompt-ThinItalic;
+  src: url(./fonts/Prompt/Prompt-ThinItalic.ttf);
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}

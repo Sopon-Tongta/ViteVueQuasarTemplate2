@@ -1,0 +1,261 @@
+@import "@/css/base.scss";
+
+.text-theme-color {
+  color: $themeColor !important;
+}
+
+.bg-theme-color {
+  background: $themeColor !important;
+}
+
+.container {
+  .box-main-title {
+    padding: 4px 25px 0px 25px;
+    .text-main-title {
+      font-family: "Prompt-SemiBold";
+      font-size: 24px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .box-sub-title {
+    margin: 0px 25px;
+    padding: 20px;
+    background-color: #eeeeee;
+    align-items: center;
+    .text-main-title {
+      font-family: "Prompt-Light";
+      color: $themeColor;
+      font-size: 11px;
+    }
+    .text-sub-title {
+      font-family: "Prompt-Light";
+      font-size: 22px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-right: 10px;
+      cursor: pointer;
+    }
+  }
+  .box-table-no-header-detail {
+    padding: 0px 25px 0px 25px;
+    .q-table__middle {
+      height: calc(100vh - 220px);
+    }
+    @media screen and (min-width: 1920px) {
+      .q-table__middle {
+        height: calc(100vh - 291px);
+      }
+    }
+  }
+  .box-table-with-header-detail {
+    padding: 0px 25px 0px 25px;
+    .title-table {
+      height: 40px;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 5px;
+    }
+    .text-main-title {
+      font-family: "Prompt-Bold";
+      font-size: 18px;
+      color: $themeColor;
+      .menu-switch-data {
+        cursor: pointer;
+      }
+      .menu-switch-data:hover {
+        text-decoration: underline;
+      }
+    }
+    .set-height-show-data {
+      height: calc(100vh - 440px);
+    }
+    .set-height-hide-data {
+      height: calc(100vh - 285px);
+    }
+    @media screen and (min-width: 1920px) {
+      .set-height-show-data {
+        height: calc(100vh - 486px);
+      }
+      .set-height-hide-data {
+        height: calc(100vh - 331px);
+      }
+    }
+  }
+  .q-btn {
+    font-family: "Prompt-Regular";
+  }
+  .btn-icon {
+    padding: 4px 5px;
+  }
+  .link-goto {
+    font-family: "Prompt-SemiBold";
+    color: $themeColor;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .q-select {
+    .q-field__control,
+    .q-field__append,
+    .q-field__native {
+      min-height: 28px;
+      height: 28px;
+      font-family: "Prompt-Regular";
+      .q-icon,
+      .q-field__focusable-action {
+        font-size: 14px;
+      }
+      .q-select__dropdown-icon {
+        font-size: 20px;
+      }
+    }
+    input.q-field__input {
+      min-height: 15px;
+      line-height: 15px;
+    }
+  }
+  .q-table {
+    thead tr:first-child th {
+      background-color: $themeColor;
+      font-family: "Prompt-SemiBold";
+      font-size: 14px;
+      color: white;
+    }
+    thead tr th {
+      position: sticky;
+      z-index: 1;
+    }
+    thead tr:first-child th {
+      top: 0;
+    }
+    tbody tr td {
+      font-family: "Prompt-Light";
+      font-size: 14px;
+    }
+    .q-table--bordered {
+      border: 0.1px solid rgba(0, 0, 0, 0.12);
+    }
+  }
+  .q-table--bordered {
+    border: 0.1px solid rgba(0, 0, 0, 0.12);
+  }
+  .pagination-banner {
+    font-family: "Prompt-SemiBold";
+    font-size: 14px;
+    color: $themeColor;
+  }
+}
+
+.q-menu {
+  .q-item__label {
+    font-family: "Prompt-Regular";
+  }
+  .q-item--active {
+    color: $themeColor;
+  }
+}
+
+.q-dialog .popup-form {
+  background-color: $themeColor;
+  .section-header {
+    display: block;
+    .popup-title {
+      font-family: "Prompt-SemiBold";
+      font-size: 20px;
+      color: white;
+    }
+  }
+  .section-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 200px);
+    max-height: 450px;
+    .popup-label {
+      font-family: "Prompt-SemiBold";
+      font-size: 14px;
+    }
+  }
+
+  .q-select {
+    .q-field__control,
+    .q-field__append,
+    .q-field__native {
+      min-height: 28px;
+      height: 28px;
+      font-family: "Prompt-Regular";
+      .q-icon,
+      .q-field__focusable-action {
+        font-size: 14px;
+      }
+      .q-select__dropdown-icon {
+        font-size: 20px;
+      }
+      input {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    input.q-field__input {
+      min-height: 15px;
+      line-height: 15px;
+    }
+  }
+
+  .select__auto__field {
+    .q-select,
+    .q-field__control,
+    .q-field__append,
+    .q-field__native {
+      min-height: 28px;
+      height: auto;
+      font-family: "Prompt-Regular";
+
+      .q-field__focusable-action {
+        font-size: 10px;
+      }
+      input {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  .q-input {
+    .q-field__control,
+    .q-field__append,
+    .q-field__native {
+      min-height: 28px;
+      height: 28px;
+      font-family: "Prompt-Regular";
+      .q-icon,
+      .q-field__focusable-action {
+        font-size: 14px;
+      }
+    }
+  }
+  .q-field--disabled .q-field__control > div,
+  .q-field--disabled .q-field__control > div * {
+    opacity: 1 !important;
+  }
+  .q-card__section .card-body {
+    background-color: white;
+  }
+  .q-card__actions {
+    background-color: white;
+    padding: 15px;
+    justify-content: space-evenly;
+  }
+  .q-btn {
+    font-family: "Prompt-Regular";
+  }
+}
+
+.multi-select-text-grey {
+  .q-field__native {
+    color: grey;
+  }
+}
